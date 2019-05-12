@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '8'
+install:
+  - npm i -g ws-flare-cli
+script:
+  - ws-flare-cli --server=http://34.95.74.250 --token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJiMmI3MDA1ZC0xNmQ1LTQ2YzEtOTQxNy1kMzYzMzY5ZDI4OTkiLCJ0YXNrSWQiOiI3MzU2MzcwOC03NzRiLTQyM2EtYjE5MC0xMzEzNWM4NTk4ZTUiLCJpYXQiOjE1NTc2NTQ5NDEsImV4cCI6MTU4OTE5MDk0MX0.Gf5RLHlEw5paJFrzI0mFdKgUzNc1S3M3SAgN-wMR1Nw
